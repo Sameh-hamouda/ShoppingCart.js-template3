@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--responsive design meta viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Shopping Cart | Home Page</title>
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <!--stylesheet-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/profile.css">
+        <link rel="stylesheet" href="css/style-rtl.css">
+        
+        <script src="https://use.fontawesome.com/c5e93e5842.js"></script>
+
+    </head>
+    
+    
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <!--logo-->
+                <a class="main-logo" href="index.html">
+                    <img src="images/logo/shopping.png"/>
+                    <span> End of the high note</span>
+                </a>
+                <!--user info -->
+                <nav>
+                   <ul id="links">
+                    <li><a href="login.html">Sign In</a></li>
+                    <li><a href="register.html">Sign Out</a></li>
+                   </ul>
+                    
+                <ul id="user-info">
+                <li ><a id="usernameDB" href="profile.html"></a></li>
+                        <li><a href="myProducts.html"> My Products</a></li>
+                    <li><a href="favorite.html"> Favorite</a></li>
+                    <!--shopping Cart Html-->
+        <li class="shoppingCart">
+          
+            <i class="cartIcon fa fa-shopping-cart" aria-hidden="true"></i>
+            <span class="badge"></span>
+            
+            <div class="cart-products">
+                <div class="cart-products-content">
+                </div>
+                <a href="cartproducts.html">View Products</a>
+            </div>
+        </li>  
+                <li class="sign-out">
+                    <a id="nav-to-LogInPage" href="register.html"><i class="fa fa-sign-out" ></i></a>
+                     <p class="hover-box">Sign out</p>
+                </li>
+        <li class="langIcon">
+            <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+        <div class="langList">
+            <a id="en-lang">EN</a>
+            <a id="ar-lang">AR</a>
+        </div>            
+            </li>
+                </ul>
+                    
+                </nav> 
+            </div>
+        </div>
+        
+    </header>
+    
+    <section class="profile">
+        <div class="container">
+           <img id="avatarImg" src="images/userImage/sameh.png" alt="user-img" class="profile-img"/>
+            <p id="userNameAvatar"></p>
+            <p id="userEmailAvatar"></p>
+            <p id="userPasswordAvatar"></p>
+            <p id="productsLength"></p>
+            <a href="editProfile.html" class="edit-profile" > Edit Profile</a>
+            
+            <!--plus button to add items-->
+             <a href="createProduct.html" class="create-product-icon"><i class="fa fa-plus"></i></a>
+        </div>
+    </section>
+    
+    <script src="js/user.js"></script>
+    <script src="js/LangDir.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/cartMenu.js"></script>
+        <script src="js/profile.js"></script>
+    
+</body>
+
+</html>
+    

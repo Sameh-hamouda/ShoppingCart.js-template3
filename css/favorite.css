@@ -1,0 +1,45 @@
+.favorite{
+    width: 60%;
+    margin: 30px 0;
+}
+.favorite .product-item{
+    background-color: #f6e6cb5e;
+    width: 100%;
+    display: flex;
+    min-height: 150px;
+
+}
+.favorite .product-item img {
+    width: 25%;
+    display: inline-block;
+
+}
+.favorite .product-item .product-desc{
+    padding: 20px;
+    width: 45%;
+}
+.favorite .product-item .product-desc h3{
+    font-size: 18px;
+    font-weight: 600px;
+    letter-spacing: 1.3px;
+    
+}
+.RemoveFromCart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 140px;
+    height: 40px;
+    line-height: 100%;
+    background-color: #396EB0;
+    color: #fff;
+    font-weight: bold;
+    border:none;
+    letter-spacing: 1.15px;
+    cursor: pointer;
+
+}
+.favoriteIcon {
+    display: none;
+    visibility: hidden;
+}

@@ -1,0 +1,37 @@
+.item-body{
+    position: relative;
+    margin: 10px auto;
+}
+.item-details {
+    position: absolute;
+    top: 0; 
+    left: 50%; 
+    transform: translate(-50%,0);
+    box-shadow: 5px 5px 10px -5px #747474;
+    padding: 0 15px;
+    width: 50%;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+    border: 1px solid #e8e8e8;
+
+}
+.item-details:hover{
+box-shadow: 5px 5px 10px -5px #114127;
+
+}
+.item-details h2 {
+    color: #747474;
+}
+.item-details img {
+    max-height: 250px;
+    max-width: 200px;
+    margin: 10px auto;
+    padding: 2px;
+    border: 1px solid #e8e8e8;
+    object-fit: cover;
+}
+.edit-product-btn {
+top: 100%;
+left: 0;
+
+}
